@@ -23,9 +23,23 @@ public class ArrayQuestion {
 		 System.out.println(l.get(2));
 		 
 	}
+	private  static void subMethod2() {
+		int[] a = {1,2,3,4,5,7};
+		int target = 10;
+		int sum ;
+		for (int i = 0; i < a.length; i++) {
+			for (int j = 0+1; j < a.length; j++) {
+				sum = a[i]+a[j];
+				if (sum == target) {
+					System.out.println(i +" "+j );
+				}
+			}
+		}
+	}
 	public static void main(String[] args) {
 		subMethod();
 		subMethod1();
+		subMethod2();
 	}
 	
 	

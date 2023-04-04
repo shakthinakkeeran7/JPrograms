@@ -19,7 +19,19 @@ public class palindrome {
 		}
 	}
 	private static void subMethod2() {
-
+		
+		String orginal = "name";
+		String reverse ="";
+		
+		for (int i =orginal.length()-1;i>0; i--) {
+			reverse = reverse +orginal.charAt(i);
+		}
+		if(orginal.equals(reverse)) {
+			System.out.println("it is a palindrome");
+		}else {
+			System.out.println("not a palindrome");
+		}
+		
 	}
 	
 	public static void main(String[] args) {
