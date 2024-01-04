@@ -1,4 +1,4 @@
-package com.java.interview;
+package com.practice;
 
 public class Factorial {
 	private static void subMethod() {

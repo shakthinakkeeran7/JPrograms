@@ -1,4 +1,4 @@
-package com.java.interview;
+package com.practice;
 
 import java.util.LinkedHashMap;
 import java.util.LinkedList;

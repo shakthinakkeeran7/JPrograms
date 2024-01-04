@@ -1,4 +1,4 @@
-package com.java.interview;
+package com.practice;
 
 public class ReverseOfANumber {
 	static int a = 123;

@@ -1,4 +1,4 @@
-package com.java.interview;
+package com.practice;
 
 import javax.swing.text.StyledEditorKit.ForegroundAction;
 
