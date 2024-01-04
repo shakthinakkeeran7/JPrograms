@@ -9,7 +9,7 @@ public class Pyramid5 {
 		//1
 		for (int i = 4; i>=1; i--) {
 			
-			
+			System.out.println();
 			
 			
 		}
